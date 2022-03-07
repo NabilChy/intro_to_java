@@ -1,4 +1,4 @@
-package testfunction;
+package testfunction.patternfunctions;
 
 public class PatternPrint {
     public static void PrintingPattern(int value){
