@@ -1,6 +1,6 @@
 package testfunction.trianglefunctions;
 
-public class TrianglePrint_2 {
+public class TrianglePrint2 {
     public static void PrintingTriangle2(int n){
         int i, j;
 
