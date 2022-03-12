@@ -7,18 +7,18 @@ public class MatrixAddition {
         System.out.println("Result:");
         int[][] arr2 = AddMatrix(arr,arr1);
         for(int i=0; i < arr2.length; i++){
-            for (int j = 0; j < arr2.length; j++){
+            for (int j = 0; j < arr2[0].length; j++){
                 System.out.print(arr2[i][j] + " ");
             }
             System.out.println();
         }
     }
     public static int[][] AddMatrix(int[][] arr, int[][] arr1){
-        int[][] arr2 = new int[arr.length][arr.length];
+        int[][] arr2 = new int[arr.length][arr[0].length];
         int i,j;
 
         for(i=0; i < arr2.length; i++){
-            for (j = 0; j < arr2.length; j++){
+            for (j = 0; j < arr2[0].length; j++){
 
                 arr2[i][j] = arr[i][j] + arr1[i][j];
             }

@@ -17,7 +17,7 @@ public class MatrixTranspose {
     }
 
     public static int[][] GetTranspose(int[][] arr) {
-        int i, j, k, row, column;
+        int i, j, row, column;
         row = arr.length;
         column = arr[0].length;
         int[][] arr1 = new int[column][row];
