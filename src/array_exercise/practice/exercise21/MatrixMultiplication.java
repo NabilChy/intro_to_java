@@ -1,5 +1,5 @@
 package array_exercise.practice.exercise21;
-//Multiply two matrix of same size
+//Multiply two matrix of same size with row = column
 public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] arr = {{1,2}, {3,4}};
