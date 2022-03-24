@@ -3,7 +3,7 @@ package array_exercise;
 public class Exercise7 {
     public static void main(String[] args) {
         int[] arr = {10,15,23,29,40,399};
-        System.out.println(binarySearch(arr,15));
+        System.out.println(binarySearch(arr,399));
     }
 
     public static int binarySearch(int[] arr, int target){
