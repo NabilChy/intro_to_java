@@ -1,8 +1,10 @@
-package object_oriented_programming.person;
+package object_oriented_programming.encapsulation.person;
 
 public class Main {
+
     public static void main(String[] args) {
         Person[] personArray = new Person[10];
+        Person person1 = new Person();
         personArray[0] = new Person("Andrew",18,  5.2, 197, 'M', "Upper Darby");
         personArray[1] = new Person("Tom",50,  5.5, 210, 'M', "Outer Wall Slum");
         personArray[2] = new Person("Martha",45,  4.2, 180, 'F', "Inner Wall");
@@ -36,5 +38,16 @@ public class Main {
 
         //print eldest member information
         System.out.println("Eldest member: \n" + personArray[9]); //Will not work if array is not full.
+
+        personArray[0].increaseAge();
+        System.out.println(personArray[0]);
+        System.out.println(personArray[0].getAge());
+
     }
+    public static void name(){
+        System.out.println("Here");
+    }
+
+
 }
+

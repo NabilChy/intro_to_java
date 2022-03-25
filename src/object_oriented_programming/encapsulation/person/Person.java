@@ -1,12 +1,16 @@
-package object_oriented_programming.person;
+package object_oriented_programming.encapsulation.person;
 
 public class Person {
     public String name;
-    public int age;
+    private int age;
     private double height;
     private double weight;
     public char gender;
     public String address;
+
+    public Person(){
+
+    }
 
     public Person(String name, int age, double height, double weight, char gender, String address) {
         this.name = name;
@@ -89,6 +93,10 @@ public class Person {
             }
         }
         return arr;
+    }
+
+    public void increaseAge(){
+        this.age++;
     }
 
 }
